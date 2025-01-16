@@ -1,0 +1,91 @@
+/* Início da página de contato */
+
+.column {
+  width: calc(50% - 30px);
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.contactForm .field,
+.contactForm .fields .field {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.contactForm .textarea {
+  height: 80px;
+  width: 100%;
+}
+
+.contactForm .field input,
+.contactForm .field textarea {
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  outline: none;
+  padding: 0 10px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.contactForm .field input:focus,
+.contactForm .field textarea:focus {
+  border-color: var(--active-color);
+}
+
+.contactForm .textarea textarea {
+  padding-top: 10px;
+  resize: none;
+}
+
+.contactForm .buttonArea {
+  display: flex;
+  align-items: center;
+}
+
+.contactForm .buttonArea button {
+  background-color: var(--active-color);
+  color: var(--site-color);
+  display: block;
+  width: 160px !important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid var(--active-color);
+  transition: all 0.3s ease;
+}
+
+.contactForm .buttonArea button:hover {
+  color: var(--active-color);
+  background: none;
+}
+
+@media (max-width: 947px) {
+  .column {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    margin-top: 50px;
+  }
+  .contactForm .fields {
+    flex-direction: column;
+  }
+  .contactForm .name,
+  .contactForm .email {
+    margin: 0;
+  }
+}
+
+/* Fim da página de contato */

@@ -1,0 +1,70 @@
+/* Estrutura Geral */
+.top {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .maxWidth {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .topContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha o conteúdo à esquerda */
+    max-width: 600px; /* Define a largura máxima do bloco de texto */
+  }
+  
+  /* Estilização dos Textos */
+  .text1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .text2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .text3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+  
+  /* Botão de Contato */
+  .contactButton {
+    display: inline-block;
+    font-size: 18px; /* Tamanho da fonte maior */
+    font-weight: bold;
+    padding: 15px 30px; /* Tamanho maior do botão */
+    color: #fff;
+    background-color: #007bff; /* Cor de fundo azul */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease; /* Efeito de transição suave */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+  }
+  
+  .contactButton:hover {
+    background-color: #0056b3; /* Altera a cor no hover */
+    transform: scale(1.1); /* Aumenta ligeiramente o botão */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Aumenta a sombra */
+  }
+  
+  .contactButton:active {
+    transform: scale(0.95); /* Reduz ligeiramente o botão ao clicar */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Diminui a sombra */
+  }
+  

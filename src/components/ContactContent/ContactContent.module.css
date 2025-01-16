@@ -1,0 +1,28 @@
+.left p {
+  text-align: justify;
+}
+
+.icons {
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.row i {
+  font-size: 25px;
+  color: var(--active-color);
+  margin-right: 15px;
+}
+
+.info .head {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.info .subTitle {
+  color: var(--site-color);
+}

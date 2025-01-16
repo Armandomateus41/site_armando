@@ -1,0 +1,21 @@
+.contact {
+    color: var(--site-color);
+    background-color: var(--main-color);
+    font-family: "Poppins", sans-serif;
+    padding: 50px 20px;
+  }
+  
+  .contact .title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 35px;
+  }
+  
+  .contactContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  

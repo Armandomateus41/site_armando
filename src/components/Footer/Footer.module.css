@@ -1,0 +1,44 @@
+/* Início do Rodapé */
+.footer {
+  background: var(--second-color);
+  color: var(--site-color);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 25px 20px;
+}
+
+.footer .container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.footer .socialIcons {
+  margin-bottom: 15px;
+}
+
+.footer .socialIcons a {
+  display: inline-block;
+  color: var(--active-color);
+  font-size: 18px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer .socialIcons a:hover {
+  color: var(--site-color);
+}
+
+.footer span {
+  font-size: 14px;
+}
+
+.footer span a {
+  color: var(--active-color);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer span a:hover {
+  color: var(--site-color);
+}
+/* Fim do Rodapé */

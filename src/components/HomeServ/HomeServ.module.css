@@ -1,0 +1,74 @@
+/* Início dos estilos para a seção de serviços */
+.services {
+    color: var(--site-color);
+    background-color: var(--main-color);
+    font-family: 'Poppins', sans-serif;
+    padding: 60px 20px;
+}
+
+.services .title {
+    text-align: center;
+    margin: 40px 0;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.services .servContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.services .card {
+    width: calc(33.333% - 20px);
+    background: var(--first-color);
+    text-align: center;
+    border-radius: 6px;
+    padding: 40px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.services .card:hover {
+    background: var(--active-color);
+    transform: translateY(-5px);
+}
+
+.services .card i {
+    font-size: 50px;
+    color: var(--active-color);
+    transition: color 0.3s ease;
+}
+
+.services .card:hover i {
+    color: var(--site-color);
+}
+
+.services .text {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0;
+    color: var(--site-color);
+}
+
+.services .card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--site-color);
+}
+
+@media (max-width: 947px) {
+    .services .servContent .card {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 690px) {
+    .services .servContent .card {
+        width: 100%;
+    }
+}
+/* Fim dos estilos para a seção de serviços */

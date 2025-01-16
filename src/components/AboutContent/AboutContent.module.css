@@ -1,0 +1,72 @@
+/* Início da página Sobre Empresa */
+
+.about {
+  color: var(--site-color);
+  background: var(--main-color);
+  font-family: "Poppins", sans-serif;
+  padding: 50px 20px;
+}
+
+.about .title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.about .aboutContent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  background: var(--first-color);
+  border-radius: 6px;
+  padding: 30px;
+}
+
+.about .aboutContent .column {
+  width: 48%;
+}
+
+.about .aboutContent .left img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.about .aboutContent .right .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.about .aboutContent .right .description {
+  text-align: justify;
+  font-size: 16px;
+}
+
+@media (max-width: 947px) {
+  .about .aboutContent .column {
+    width: 100%;
+  }
+  .about .aboutContent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about .aboutContent .left {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 740px) {
+  .about .title {
+    font-size: 30px;
+  }
+  .about .aboutContent .right .text {
+    font-size: 22px;
+  }
+}
+
+/* Fim da página Sobre Empresa */
